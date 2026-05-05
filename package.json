@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "nextyou",
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -9,36 +9,10 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "devDependencies": {
-    "@arco-design/web-vue": "^2.54.3",
-    "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "@nuxtjs/eslint-module": "^4.1.0",
-    "@nuxtjs/tailwindcss": "^6.11.0",
-    "dayjs": "^1.11.10",
-    "eslint": "^8.56.0",
-    "nuxt": "^3.9.3",
-    "prettier": "^3.2.4",
-    "prettier-plugin-tailwindcss": "^0.5.11",
-    "vue": "^3.4.15",
-    "vue-router": "^4.2.5"
-  },
-  "eslintConfig": {
-    "extends": [
-      "@nuxtjs/eslint-config-typescript"
-    ],
-    "rules": {
-      "vue/no-multiple-template-root": "off",
-      "vue/singleline-html-element-content-newline": "off",
-      "space-before-function-paren": "off"
-    }
-  },
-  "prettier": {
-    "printWidth": 120,
-    "semi": false,
-    "singleQuote": true,
-    "trailingComma": "none",
-    "plugins": [
-      "prettier-plugin-tailwindcss"
-    ]
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "nuxt": "^4.4.4",
+    "vue": "^3.5.33",
+    "vue-router": "^5.0.6"
   }
 }
